@@ -1,0 +1,18 @@
+// tailwind.config.ts
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  content: ['./src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        charcoal: '#2e2e2e',
+        'charcoal-light': '#3f3f3f',
+        'charcoal-dark': '#1f1f1f',
+      },
+    },
+  },
+  plugins: [],
+}
+
+export default config
