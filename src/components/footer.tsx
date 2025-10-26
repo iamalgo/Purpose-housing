@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Link from 'next/link'
 import { Phone, Mail, MapPin, Heart } from 'lucide-react'
 

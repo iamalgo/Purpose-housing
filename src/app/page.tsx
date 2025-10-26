@@ -1,14 +1,11 @@
 // src/app/page.tsx
-import Hero from '@/components/home/Hero'
-import Features from '@/components/home/Features'
-import CallToAction from '@/components/home/CallToAction'
+import Hero from "@/components/home/Hero";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
+    <>
       <Hero />
-      <Features />
-      <CallToAction />
-    </main>
-  )
+      {/* Other sections like Features, CallToAction, etc. */}
+    </>
+  );
 }

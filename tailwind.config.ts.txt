@@ -6,13 +6,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        charcoal: '#2e2e2e',
-        'charcoal-light': '#3f3f3f',
-        'charcoal-dark': '#1f1f1f',
+        charcoal: {
+          DEFAULT: '#2e2e2e',
+          light: '#3f3f3f',
+          dark: '#1f1f1f',
+        },
+        gold: {
+          DEFAULT: '#C49A3B',
+          dark: '#A67C2D',
+        },
       },
     },
   },
   plugins: [],
 }
+
+export default config
 
 export default config

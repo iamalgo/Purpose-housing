@@ -1,9 +1,10 @@
-﻿// next.config.js
-const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    domains: [],
-  },
-}
+﻿const path = require('path');
 
-module.exports = nextConfig
+module.exports = {
+  turbopack: {}, // ✅ Silences the Turbopack warning
+
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.resolve(__dirname, 'src');
+    return config;
+  },
+};
