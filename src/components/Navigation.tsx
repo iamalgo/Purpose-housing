@@ -1,7 +1,4 @@
 'use client'
-import Image from 'next/image'
-
-
 
 import { useState } from 'react'
 import Link from 'next/link'
@@ -16,9 +13,9 @@ const Navigation = () => {
       <div className="bg-charcoal-dark text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-end items-center space-x-6 text-sm">
-            <a href="tel:205-300-9531" className="flex items-center hover:text-gold transition-colors">
+            <a href="tel:205-523-6459" className="flex items-center hover:text-gold transition-colors">
               <Phone className="w-4 h-4 mr-2" />
-              205-300-9531
+              205-523-6459
             </a>
             <a href="mailto:adriennew@limyefoundation.org" className="flex items-center hover:text-gold transition-colors">
               <Mail className="w-4 h-4 mr-2" />
@@ -32,18 +29,13 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
- <Link href="/" className="flex items-center">
-  <Image
-    src="/publiclogo.png"
-    alt="Purpose Housing Logo"
-    width={160}
-    height={64}
-    className="h-16 w-auto"
-    priority
-  />
-</Link>
-
-
+          <Link href="/" className="flex items-center">
+            <img 
+              src="https://page.gensparksite.com/v1/base64_upload/d37a5b27-c83d-4ee8-9af4-29f7aae15c8a.png" 
+              alt="Purpose Housing Logo" 
+              className="h-16 w-auto"
+            />
+          </Link>
 
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">

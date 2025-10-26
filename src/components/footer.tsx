@@ -1,5 +1,4 @@
-import Footer from '@/components/Footer';
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import { Phone, Mail, MapPin, Heart } from 'lucide-react'
 
 const Footer = () => {
@@ -7,7 +6,6 @@ const Footer = () => {
     <footer className="bg-charcoal-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* About */}
           <div>
             <img 
               src="https://page.gensparksite.com/v1/base64_upload/d37a5b27-c83d-4ee8-9af4-29f7aae15c8a.png" 
@@ -19,7 +17,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="font-display text-lg font-semibold mb-4 text-gold">Quick Links</h3>
             <ul className="space-y-2">
@@ -46,7 +43,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h3 className="font-display text-lg font-semibold mb-4 text-gold">Contact</h3>
             <ul className="space-y-3">
@@ -71,7 +67,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Our Values */}
           <div>
             <h3 className="font-display text-lg font-semibold mb-4 text-gold">Our Values</h3>
             <ul className="space-y-2 text-sm text-gray-400">
@@ -95,7 +90,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom bar */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Purpose Housing Management Solutions. All rights reserved.</p>
           <p className="mt-2">
